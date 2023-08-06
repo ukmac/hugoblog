@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hints and Tips on UKMac.net</title><link>https://ukmac.net/tags/hints-and-tips/</link><description>Recent content in Hints and Tips on UKMac.net</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Sat, 01 Apr 2023 23:00:00 +0000</lastBuildDate><atom:link href="https://ukmac.net/tags/hints-and-tips/index.xml" rel="self" type="application/rss+xml"/><item><title>Resetting Apple’s Magic Keyboard and Magic Trackpad</title><link>https://ukmac.net/p/resetting-apples-magic-keyboard-and-magic-trackpad/</link><pubDate>Sat, 01 Apr 2023 23:00:00 +0000</pubDate><guid>https://ukmac.net/p/resetting-apples-magic-keyboard-and-magic-trackpad/</guid><description>&lt;p>My Magic Keyboard and Magic Trackpad have been gathering dust in the office recently after I changed from using my MacBook in clamshell mode connected to an external monitor to using in front of the monitor, so I decided to setup them up on my iPad Mini. Trouble is they were paired to my MacBook so didn’t show up in Bluetooth settings on the iPad to pair them and I couldn’t remember how to reset them.&lt;/p>
+&lt;p>The solution for this was quite easy. Just power each device on and off five times, then go to the Bluetooth settings on the iPad and they appear ready for pairing.&lt;/p></description></item><item><title>Managing Trackpad on MacOS when using external mouse</title><link>https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/</link><pubDate>Mon, 06 Mar 2023 00:00:00 +0000</pubDate><guid>https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/</guid><description>&lt;p>Following my desk space re-organisation this weekend I am back to using my MacBook keyboard again for the first time in quite a while. Having worked predominantly with an external mouse and keyboard with my MacBook in clamshell mode in a vertical stand I decided I would like to disable the MacBook trackpad.&lt;/p>
+&lt;p>Simple you would think? Apple do kindly offer a setting in the Mouse &amp;amp; Trackpad Accessibility preferences to do this very thing, however after switching on the option I found my trackpad was still fully operation even with my Logitech MX Master connected. It appears that Bluetooth mice don&amp;rsquo;t register as a mouse being present?&lt;/p>
+&lt;p>&lt;img src="https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mouseoptions.png"
+width="827"
+height="737"
+srcset="https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mouseoptions_hu0952fa0ef85f22bbb14187f3ba85ebcb_211784_480x0_resize_box_3.png 480w, https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mouseoptions_hu0952fa0ef85f22bbb14187f3ba85ebcb_211784_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Disabling trackpad when mouse present"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>&lt;/p>
+&lt;p>The fix I discovered was to use another Accessibility preference known as Mouse Keys, a legacy service designed to allow cursor control using the keyboard.&lt;/p>
+&lt;p>Firstly enable Mouse Keys by switching on the slider in the Pointer Control options, then click on the i next to the slider to reveal the additional preferences dialog below.&lt;/p>
+&lt;p>&lt;img src="https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mousekeys.png"
+width="827"
+height="737"
+srcset="https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mousekeys_hu0952fa0ef85f22bbb14187f3ba85ebcb_247936_480x0_resize_box_3.png 480w, https://ukmac.net/p/managing-trackpad-on-macos-when-using-external-mouse/mousekeys_hu0952fa0ef85f22bbb14187f3ba85ebcb_247936_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="Enable mouse keys"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+>&lt;/p>
+&lt;p>Switch on the two sliders to disable the trackpad when Mouse Keys is on and also enable the option to quickly enable/disable Mouse Keys by pressing the Option key 5 times. You should find that the trackpad is now correctly disabled. To enable the trackpad again just turn off Mouse Keys by tapping Option key 5 times.&lt;/p>
+&lt;p>Job done.&lt;/p></description></item></channel></rss>
