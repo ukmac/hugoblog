@@ -1,6 +1,6 @@
 ---
-title: Example Category
-description: A description of this category
+title: Apple
+description: Apple news and updates
 
 # Badge style
 style:
